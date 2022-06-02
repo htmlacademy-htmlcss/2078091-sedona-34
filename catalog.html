@@ -63,30 +63,30 @@
       <form class="filter-left" action="https://echo.htmlacademy.ru/" method="get">
 
         <fieldset class="filter-left">
-            <legend class="filter-left-title">Инфраструктура</legend>
-            <ul class="filter-left-infra-list">
-             <li class="filter-left-infra-item">
+          <legend class="filter-left-title">Инфраструктура</legend>
+          <ul class="filter-left-infra-list">
+            <li class="filter-left-infra-item">
               <label class="control">
                 <input class="control-input" type="checkbox" name="swimming pool" checked>
                 Бассейн
               </label>
-             </li>
-             <li class="filter-left-infra-item">
+            </li>
+            <li class="filter-left-infra-item">
               <label class="control">
                 <input class="control-input" type="checkbox" name="parking space" checked>
                 Парковка
               </label>
-             </li>
-             <li class="filter-left-infra-item">
+            </li>
+            <li class="filter-left-infra-item">
               <label class="control">
                 <input class="control-input" type="checkbox" name="Wi-Fi">
                 Wi-Fi
               </label>
-             </li>
-            </ul>
-          </fieldset>
+            </li>
+          </ul>
+        </fieldset>
 
-          <fieldset class="filter-left">
+        <fieldset class="filter-left">
           <legend class="filter-left-title">Тип Жилья</legend>
           <ul class="filter-left-type">
             <li class="catalog-filter-item">
@@ -106,10 +106,17 @@
             </li>
           </ul>
         </fieldset>
-
         <button class="button" type="submit">Применить</button>
+        <button class="button" type="reset">Сбросить</button>
       </form>
     </section>
+    <div class="sorting">
+      <h2 class="sorting">Найдено гостиниц: 38</h2>
+      <select class="sorting-select" aria-label="Сортировка">
+        <option value="cheap">Сначала дешёвое</option>
+        <option value="expensive">Сначала дорогое</option>
+      </select>
+    </div>
   </main>
 
   <footer class="page-footer">
